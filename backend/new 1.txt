@@ -1,0 +1,44 @@
+ 
+contact  
+ 
+ 
+ {
+ 'sujet':'monque de stokage'
+ 'Adressemail':'akakkaka@nananan',
+ 'Message':'message',
+ }
+ 
+ login
+ {
+ 
+ "UserPseudo":"UserPseudo..",
+ 
+"FirstName":"FirstName..",
+ 
+"LastName":"lastName..",
+ 
+"MailAdress":"Email ..",
+"Password":12336648
+ 
+ 
+ 
+ }
+ 
+ app.get("/AllClient",(req,res)=>{
+    db.collection('client').find().toArray((err,data)=>{
+        if(err){res.send("can not Get Client List")}
+        else res.send(data)
+
+    })
+ 
+ 
+ 
+
+
+app.get("/AllClientContact",(req,res)=>{
+    db.collection('ContactClient').find().toArray((err,data)=>{
+        if(err){res.send("can not Get Cilent connect ")}
+        else res.send(data)
+
+    });
+ 

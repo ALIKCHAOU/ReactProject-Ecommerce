@@ -1,0 +1,12 @@
+.Item{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+   margin: 10px 10px ;
+}
+.Item img{
+
+    width: 150px;
+    height: 150px;
+
+}

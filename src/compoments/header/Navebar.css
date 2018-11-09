@@ -1,0 +1,64 @@
+@media(min-width: 920px)
+{
+    .displaybuton{
+        display: none;
+    }
+  
+   
+}
+@media(max-width:920px)
+{
+    .container{
+        display:none;
+    }
+   
+    .Searchbar input{
+        width:300px;
+
+    }
+    .nave-item{
+        margin-left: 100px;
+    }
+    
+}
+@media(max-width:850px)
+{.Searchbar {
+    display: none;
+
+}}
+.Header{
+
+    display:flex;
+    align-items: center;
+    height:100%;
+    padding:0 1rem;
+    height:56px;
+}
+.toolbarlogo{
+    margin-left:1rem;
+}
+.toolbarlogo a {
+    color:white;
+    font-size:1.5rem;
+    text-decoration: none;
+}
+
+.nave-item{
+    list-style: none;
+    margin:0px;
+    padding: 0 0.5rem;
+    display: flex;
+ 
+}
+.nave-item-li{
+    margin:10px;
+}
+.nave-item-li span{
+    font-size: 28px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   line-height: 14px;
+   color:white;
+}
+
+        

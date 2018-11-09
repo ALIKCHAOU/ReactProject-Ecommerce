@@ -1,0 +1,65 @@
+.Header{
+    color:white;
+    height:50px;
+    max-width: 100%;
+    background-image:url("http://www.tunisianet.com.tn/themes/classic/assets/img/bg_header.jpg");
+    line-height: 14px;
+}
+
+.Contact:hover ,Contact:active{
+color:#ffbf00;
+
+}
+.Moncompte:hover  ,Moncompte:active{
+    color:#ffbf00;
+}
+.Panier:hover  ,Moncompte:active{
+    color:#ffbf00;
+}
+.Searchbar{
+    flex: 1;
+   
+}
+.Searchbar input{
+
+    width: 420px;
+    border: none;
+    padding: 6px;     
+    background: #ebebeb;
+     color: #acaaa6;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.container{  display: flex;
+          align-items: center;
+          justify-content: center;
+          
+} 
+
+
+.tel:hover .dropdown-content {display: block; height: 220px;}
+.tel {display: inline;}
+
+.ord{  display: inline;}
+.ord:hover .dropdown-content{display: block; height: 220px;}
+.Stockage{ display: inline;}
+.Stockage:hover .dropdown-content {display: block; height: 250px;}
+.ImpressionCopieurs{ display: inline;}
+.ImpressionCopieurs:hover .dropdown-content {display: block; height: 220px;}
+.TVSonPhotos{ display: inline;}
+.TVSonPhotos:hover .dropdown-content {display: block; height: 220px;}
+.Electromenager{ display: inline;}
+.Electromenager:hover .dropdown-content {display: block; height: 220px;}
+.AccessoriesReseau{ display: inline;}
+.AccessoriesReseau:hover .dropdown-content {display: block; height: 220px;}
+.Bureautique{ display: inline;}
+.Bureautique:hover .dropdown-content {display: block; height:220px;}
+.btn-container{
+
+    color: #555;
+    background-color: white;
+ 
+    padding-bottom: 5px;
+    height: 25px;
+}

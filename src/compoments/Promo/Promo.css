@@ -1,0 +1,19 @@
+
+.homegrid  {
+    display: flex;
+   
+   flex-wrap: wrap;
+    width: 100%;
+    
+   
+    margin: 20px 100px;
+}
+.image{
+    margin-left: 15px;
+    
+    margin-top: 15px;
+}
+.image img {
+width:266px;
+height:266px ;
+}
